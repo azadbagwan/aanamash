@@ -17,7 +17,7 @@
 }
 /* globals */
 body {
-  padding-top: 100px;
+  padding-top: 70px;
   color: var(--mainBlack);
   background: var(--mainWhite);
 
@@ -129,7 +129,7 @@ h6 {
   transition: var(--mainTransition);
   list-style-type: none;
   position: relative;
-  padding-top: 35px;
+  padding-top: 25px;
 }
 .nav-links a {
   display: block;

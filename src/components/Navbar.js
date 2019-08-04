@@ -16,7 +16,7 @@ export default class Navbar extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              <img src={logoWhite} width={250} height={100} alt="Aanamash" />
+              <img src={logoWhite} width={180} height={90} alt="Aanamash" />
             </Link>
 
             <button type="btn" className="nav-btn" onClick={this.handleToggle}>

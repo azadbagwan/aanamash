@@ -1,40 +1,41 @@
 import React, { Component } from 'react'
 import Title from './Title';
-import {FaCocktail, FaHiking, FaShuttleVan,FaBeer} from "react-icons/fa"
+import {FaRegHandScissors, FaPaintBrush, FaShuttleVan,FaBeer} from "react-icons/fa";
+import { IoMdCut, IoIosCut, IoIosColorPalette, IoIosEye} from "react-icons/io";
 
 export default class ServicesHome extends Component {
     state={
         services:[
             {
-             icon:<FaCocktail/>,
-             title:"Free cocktails",
+             icon:<IoMdCut/>,
+             title:"Haircut",
              info:" some information about the service" 
             },
             {
-                icon:<FaHiking/>,
-                title:"multiple options for hiking",
+                icon:<FaPaintBrush/>,
+                title:"Nails",
                 info:" some information about the service" 
                },
                {
-                icon:<FaShuttleVan/>,
-                title:"Affordable commute",
+                icon:<IoIosColorPalette/>,
+                title:"Hair colouring",
                 info:" some information about the service" 
                },
                {
-                icon:<FaBeer/>,
-                title:"Discounted beers.",
+                icon:<IoIosEye/>,
+                title:"Eye Brows",
                 info:" some information about the service" 
                }
         ]
     }
     render() {
         return (
-            <section>
+            <section className="services">
                <Title title="Services"></Title>
                <div className="services-center">
                    {this.state.services.map((item, index)=>{
-                       return <article key={index} className="services">
-                           <span>{item.icon}</span>
+                       return <article key={index} className="service">
+                           <span className="service">{item.icon}</span>
                            <h6>{item.title}</h6>
                            <p>{item.info}</p>
                        </article>
