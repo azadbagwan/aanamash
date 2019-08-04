@@ -1,9 +1,17 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Banner from "../components/Banner";
+import {Link} from "react-router-dom"
 export default function Services() {
   return (
     <div className="div-centered">
-      <Hero hero="servicesHero" />
+      <Hero hero="servicesHero">
+      <Banner title="Services" subtitle="We give you the best you deserve!">
+      <Link to="/services" className=" btn-primary">
+        Our services
+        </Link>
+      </Banner>
+      </Hero>
       <article>
         <h3>HAIR FOR MEN'S</h3>
         <ul>
