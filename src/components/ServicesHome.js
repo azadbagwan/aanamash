@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Title from './Title';
 import {FaRegHandScissors, FaPaintBrush, FaShuttleVan,FaBeer} from "react-icons/fa";
-import { IoMdCut, IoIosCut, IoIosColorPalette, IoIosEye} from "react-icons/io";
+import { IoMdCut, IoIosCut, IoIosHand, IoIosEye} from "react-icons/io";
 
 export default class ServicesHome extends Component {
     state={
@@ -17,7 +17,7 @@ export default class ServicesHome extends Component {
                 info:" some information about the service" 
                },
                {
-                icon:<IoIosColorPalette/>,
+                icon:<IoIosHand/>,
                 title:"Hair colouring",
                 info:" some information about the service" 
                },
