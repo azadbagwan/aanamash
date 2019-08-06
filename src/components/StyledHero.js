@@ -7,6 +7,6 @@ const StyledHero =styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom:15px;
+ 
 `;
 export default StyledHero;
