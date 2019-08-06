@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <body>
+      
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/contact_us" component={Contact_us} />
           <Route component={Error} />
         </Switch>
-      </body>
+     
     </>
   );
 }

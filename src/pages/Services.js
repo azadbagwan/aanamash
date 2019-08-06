@@ -93,7 +93,7 @@ export default function Services() {
             <h4>HEAD MASSAGE WITH HAIR WASH</h4>
             <div> ₹500.00 </div>
           </li>
-          <li class="T5EIZe">
+          <li>
             <h4>NOTE</h4>
             <div>
               {" "}
