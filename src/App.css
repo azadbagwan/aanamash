@@ -411,6 +411,7 @@ h6 {
   padding: 5rem 0 0 0;
 }
 .single-room-images {
+  padding-top: 15px;
   width: 80vw;
   margin: 0 auto;
   display: grid;
