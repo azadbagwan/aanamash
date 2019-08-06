@@ -2,8 +2,10 @@ import React from "react";
 
 export default function About_us() {
   return (
-    <div>
-      <h2>hello from about us.</h2>
-    </div>
+    <div style={{ paddingTop: 50 }}>
+    Hello from About us.
+
+   
+  </div>
   );
 }

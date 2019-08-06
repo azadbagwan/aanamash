@@ -24,6 +24,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   line-height: 1.4;
+  position: relative;
 }
 h1 {
   color: goldenrod;
@@ -80,9 +81,11 @@ h6 {
   margin-top: 3rem;
 }
 .error {
+  padding-top: 70px ;
   text-align: center;
   text-transform: uppercase;
   margin: 2rem 0;
+  position: relative;
 }
 .empty-search {
   text-align: center;

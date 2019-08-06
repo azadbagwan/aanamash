@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Singleservice from "./pages/Singleservice";
-import About_us from "./pages/About_us";
+import About_us from "./pages/About_us.js";
 import Contact_us from "./pages/Contact_us";
 
 import Error from "./pages/Error";

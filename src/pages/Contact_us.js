@@ -3,7 +3,7 @@ import MapCotainer from "./MapContainer";
 
 export default function Contact_us() {
   return (
-    <div style={{ paddingTop: 50 }}>
+   <div style={{ paddingTop: 50 }}>
       <address>
         <div>
           Shop No.10/11 Parvez Complex, Shankerseth road, Near Golibar Maiden,
@@ -13,7 +13,7 @@ export default function Contact_us() {
         <div>Pune, Maharashtra 411001</div>
         <div>India</div>
       </address>
-
+ 
       <MapCotainer />
     </div>
   );
