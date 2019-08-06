@@ -23,7 +23,7 @@ export default class FeaturedRooms extends Component {
 
 
 
-<Loading/>
+
            </section>
             
         )
