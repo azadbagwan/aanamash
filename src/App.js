@@ -14,6 +14,8 @@ import ReactGA from 'react-ga';
 
 const trackingId = "UA-145269766-1";
 ReactGA.initialize(trackingId)
+
+//check dep
 function App() {
   return (
     <>
