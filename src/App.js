@@ -10,10 +10,10 @@ import Contact_us from "./pages/Contact_us";
 import Error from "./pages/Error";
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-//import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
 
 const trackingId = "UA-145269766-1";
-//ReactGA.initialize('UA-123791717-1')
+ReactGA.initialize(trackingId)
 function App() {
   return (
     <>
