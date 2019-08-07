@@ -1,5 +1,5 @@
 import React from "react";
-import MapCotainer from "./MapContainer";
+//import MapCotainer from "./MapContainer";
 
 export default function Contact_us() {
   return (
@@ -14,7 +14,7 @@ export default function Contact_us() {
         <div>India</div>
       </address>
  
-      <MapCotainer />
+      
     </div>
   );
 }
