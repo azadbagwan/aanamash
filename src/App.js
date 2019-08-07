@@ -13,7 +13,8 @@ import Navbar from "./components/Navbar";
 import ReactGA from 'react-ga';
 
 const trackingId = "UA-145269766-1";
-ReactGA.initialize(trackingId)
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 //check dep
 function App() {
